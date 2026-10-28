@@ -3,10 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web de pareja - Práctica de versionamiento con Git y GitHub">
   <title>Inicio | Sitio Web Pareja</title>
 </head>
 <body>
-  <h1>Sitio Web Pareja</h1>
-  <p>Página principal en construcción.</p>
+  <header>
+    <h1>Sitio Web Pareja</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+        <li><a href="pasatiempos.html">Pasatiempos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenidos</h2>
+      <p>
+        Este sitio fue desarrollado por una pareja de estudiantes de
+        <strong>Tecnologías de la Información</strong> de la
+        Universidad de las Fuerzas Armadas ESPE, Sede Santo Domingo,
+        como parte de la práctica de <em>Versionamiento de Aplicaciones</em>.
+      </p>
+      <figure>
+        <img src="img/banner.svg" alt="Banner del sitio web de la pareja" width="600" height="200">
+        <figcaption>Proyecto colaborativo gestionado con Git y GitHub.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>¿Qué encontrarás aquí?</h2>
+      <ul>
+        <li><a href="sobre-nosotros.html">Sobre nosotros</a>: quiénes somos, nuestra carrera y datos del equipo.</li>
+        <li><a href="pasatiempos.html">Pasatiempos</a>: lo que nos gusta hacer en nuestro tiempo libre.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Flujo de trabajo utilizado</h2>
+      <ol>
+        <li>Cada integrante trabaja en su rama <code>feature-</code>.</li>
+        <li>Las funcionalidades se integran en <code>desarrollo</code>.</li>
+        <li>Se validan en <code>pruebas</code>.</li>
+        <li>La versión aprobada se publica en <code>main</code> (producción).</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2026 Sitio Web Pareja · ESPE Santo Domingo · Fundamentos de Sistemas Web</p>
+  </footer>
 </body>
 </html>
