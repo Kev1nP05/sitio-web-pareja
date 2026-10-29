@@ -6,7 +6,98 @@
   <title>Sobre nosotros | Sitio Web Pareja</title>
 </head>
 <body>
-  <h1>Sobre nosotros</h1>
-  <p>Página en construcción.</p>
+  <header>
+    <h1>Sitio Web Pareja</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+        <li><a href="pasatiempos.html">Pasatiempos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Sobre nosotros</h2>
+
+    <section>
+      <h3>¿Quiénes somos?</h3>
+      <p>
+        Somos estudiantes de cuarto nivel de la carrera de
+        <strong>Tecnologías de la Información</strong> en la Universidad de las
+        Fuerzas Armadas ESPE, Sede Santo Domingo de los Tsáchilas.
+      </p>
+      <figure>
+        <img src="img/equipo.svg" alt="Ilustración de dos integrantes trabajando en equipo" width="400" height="220">
+        <figcaption>Trabajo colaborativo con control de versiones.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h3>Integrantes</h3>
+      <table border="1" cellpadding="6">
+        <caption>Datos del equipo de trabajo</caption>
+        <thead>
+          <tr>
+            <th scope="col">Integrante</th>
+            <th scope="col">Rama</th>
+            <th scope="col">Funcionalidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kevin Párraga</td>
+            <td>feature-kevin</td>
+            <td>Página principal, navegación y formulario</td>
+          </tr>
+          <tr>
+            <td>Manfred</td>
+            <td>feature-manfred</td>
+            <td>Página Sobre nosotros (tablas, listas y multimedia)</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">NRC 32802 · Práctica N° 2</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section>
+      <h3>Herramientas utilizadas</h3>
+      <ul>
+        <li>Visual Studio Code</li>
+        <li>Git (línea de comandos)</li>
+        <li>GitHub</li>
+        <li>Navegador web</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Glosario</h3>
+      <dl>
+        <dt>Commit</dt>
+        <dd>Registro de un conjunto de cambios en el historial del repositorio.</dd>
+        <dt>Rama (branch)</dt>
+        <dd>Línea de desarrollo independiente dentro del repositorio.</dd>
+        <dt>Merge</dt>
+        <dd>Fusión de los cambios de una rama en otra.</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h3>¿Dónde estudiamos?</h3>
+      <p>Santo Domingo de los Tsáchilas, Ecuador:</p>
+      <iframe
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-79.20%2C-0.27%2C-79.12%2C-0.22&amp;layer=mapnik"
+        width="450" height="250" title="Mapa de Santo Domingo de los Tsáchilas" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2026 Sitio Web Pareja · ESPE Santo Domingo · Fundamentos de Sistemas Web</p>
+  </footer>
 </body>
 </html>
